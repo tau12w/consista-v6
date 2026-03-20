@@ -573,7 +573,7 @@ input[type=hidden]{display:none}
 
     </style>
 </head>
-<body>
+<body style="visibility:hidden">
 
 <!-- ONBOARDING OVERLAY -->
 <div class="onboard-overlay" id="onboard-overlay" style="display:none">
@@ -2521,11 +2521,11 @@ function initOnboarding(){
   const seen=localStorage.getItem('consista_onboarded');
   if(seen){
     document.getElementById('onboard-overlay').style.display='none';
-    return;
+document.body.style.visibility='visible';
   }
   document.getElementById('onboard-overlay').style.display='flex';
+document.body.style.visibility='visible
 }
-
 function onboardNext(screen){
   document.querySelectorAll('.onboard-screen').forEach(s=>s.classList.remove('active'));
   document.getElementById('onboard-'+screen).classList.add('active');
