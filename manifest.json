@@ -1,0 +1,29 @@
+{
+  "name": "Consista — Habit Tracker",
+  "short_name": "Consista",
+  "description": "Build habits that stick. Cliff warnings, living garden & wellbeing tracker.",
+  "start_url": "/consista-v6/",
+  "scope": "/consista-v6/",
+  "display": "standalone",
+  "background_color": "#07080B",
+  "theme_color": "#07080B",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
